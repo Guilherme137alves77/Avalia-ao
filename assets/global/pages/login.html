@@ -14,7 +14,7 @@
 <script src="https://unpkg.com/lucide@latest"></script>
 
 <!-- Estilos -->
-<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="/assets/global/css/login.css">
 </head>
 <body>
 
@@ -77,7 +77,7 @@ Lembrar acesso
 </div>
 
 <button type="submit" class="btn-primary" id="submitBtn">
-<span class="btn-text">ENTRAR</span>
+<span class="btn-text" id="btnloginText">ENTRAR</span>
 <div class="loader hidden" id="loader"></div>
 </button>
 
@@ -86,17 +86,14 @@ Lembrar acesso
 </div>
 </form>
 
-<!-- Overlay de Carregamento (Simulação) -->
-<div class="loading-overlay hidden" id="loadingOverlay">
-<div class="loading-content">
-<div class="spinner"></div>
-<p id="loadingText">Verificando credenciais...</p>
+<!-- Overlay de Carregamento (aparece APENAS após clicar em ENTRAR) -->
+
 </div>
 </div>
 </div>
 </div>
 </div>
 
-<script src="login.js"></script>
+<script src="/assets/js/login.js"></script>
 </body>
 </html>
